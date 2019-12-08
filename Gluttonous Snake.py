@@ -1,4 +1,4 @@
-import pygame, sys, random, math, os
+import pygame, sys, random, math
 import pygame.freetype
 
 pygame.init()
@@ -16,8 +16,8 @@ bgcolor = pygame.Color("black")
 scorecolor = pygame.Color("yellow")
 fail = False
 failcolor = pygame.Color("red")
-failfont = pygame.freetype.Font("C://Windows//Fonts//msyh.ttc", 72)
-scorefont = pygame.freetype.Font("C://Windows//Fonts//msyh.ttc", 36)
+failfont = pygame.freetype.Font("msyh.ttc", 72)
+scorefont = pygame.freetype.Font("msyh.ttc", 36)
 screen.fill(bgcolor)
 direction = {
     "right": 0,
